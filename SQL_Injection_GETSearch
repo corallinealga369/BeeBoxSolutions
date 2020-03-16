@@ -1,5 +1,5 @@
-#/SQL Injection GET/Search/
-#a single space after double hyphen is required
+/SQL Injection GET/Search/
+Note: A single space after double hyphen is required
 
 test' OR 1=1-- 
 result: lists all movies
