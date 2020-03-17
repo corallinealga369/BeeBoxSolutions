@@ -1,0 +1,4 @@
+Use burspuite proxy in intercept mode to view the headers. 
+The headers "User Agent" can be edited to display whatever you want. 
+Example: <h1>hacked!</h1>
+        Displays an entry for your IP with the user agent "hacked!" as a level 1 heading.
