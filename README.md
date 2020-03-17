@@ -1,2 +1,3 @@
 # BeeBoxSolutions
-This is a repository of BeeBox solutions I've found and tried. 
+This is a partial list of solutions to bWAPP challenges.
+Each bug gets its own document. 
