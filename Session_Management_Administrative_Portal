@@ -1,0 +1,8 @@
+*Low *
+Edit the URL to set admin to 1
+http://10.99.50.177/bWAPP/smgmt_admin_portal.php?admin=1
+Result: You've unlocked this page using an URL Manipulation
+
+*High*
+Edit the admin cookie to 1 by using Burpsuite
+Result: Unlocks the admin page
