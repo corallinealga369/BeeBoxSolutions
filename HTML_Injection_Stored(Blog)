@@ -1,0 +1,5 @@
+<script>alert(document.cookie)</script>
+result:creates an alert window displaying the cookie
+
+<h1>Hello World!</h1>
+result:creates a level 1 heading displaying the message
